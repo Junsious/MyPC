@@ -59,38 +59,6 @@ The program displays the following information:
 
 The program uses `powershell` to extract system information via WMI (Windows Management Instrumentation) commands. Data about the CPU, motherboard, GPU, RAM, and disks are processed and formatted before being displayed on the screen.
 
-## Example Output
-
-Here is an example of the program's output:
-
-=== CPU Information ===
-
-MaxClockSpeed : 3200
-Name          : AMD Ryzen 7 2700 Eight-Core Processor
-
-=== Motherboard Information ===
-
-Manufacturer : ASRock
-SerialNumber : M80-D5019002318
-Product      : B450 Steel Legend
-
-=== GPU Information ===
-
-Name          : NVIDIA GeForce RTX 3050
-AdapterRAM    : 4293918720
-
-=== Memory (RAM) Information ===
-
-Speed         : 2400 MHz
-Manufacturer  : Kingston
-Total Memory  : 48.00 GB
-
-=== Disk Information ===
-
-Model         : Samsung SSD 980 500GB
-Size          : 465.76 GB
-Model         : WDC WD10EZEX-00BBHA0
-Size          : 931.51 GB
 
 ## License
 
